@@ -12,6 +12,7 @@
   old = red
   new = green
 [alias]
+  fall = fetch --all
   # add
   a = add                           # add
   chunkyadd = add --patch           # stage commits chunk by chunk
@@ -51,6 +52,8 @@
   short = log --pretty=format:\"%h %cr %cn %Cgreen%s%Creset\"
   simple = log --pretty=format:\" * %s\"
   shortnocolor = log --pretty=format:\"%h %cr %cn %s\"
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
 
   # pull
   pl = pull                         # pull
